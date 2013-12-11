@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+     android:id="@+id/buttonLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/portraitbackgroundaskquestion"
+    android:paddingTop="20dp" >
+    
+        <ImageView
+            android:id="@+id/imageView1"
+            android:layout_width="265dp"
+            android:layout_height="300dp"
+            android:layout_gravity="center_horizontal"
+            android:contentDescription="the image to be guessed"
+            android:scaleType="fitXY"
+            
+             />
+
+    <LinearLayout
+        android:id="@+id/fourbuttonLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:gravity="center|bottom"
+        android:orientation="horizontal"
+        android:paddingTop="90dp" >
+
+        <Button
+            android:id="@+id/answerbutton1"
+              android:layout_width="0dip"
+            android:layout_weight=".5"
+            android:layout_height="wrap_content"
+            android:text="Answer 1" />
+       
+        <Button
+            android:id="@+id/answerbutton2"
+              android:layout_width="0dip"
+            android:layout_weight=".5"
+            android:layout_height="wrap_content"
+            android:text="Answer 2" />
+        
+        </LinearLayout>
+        
+     <LinearLayout
+         android:id="@+id/fourbuttonLayout2"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:gravity="center|top"
+        android:orientation="horizontal"
+        android:weightSum="1.0"
+        >
+        
+        <Button
+            android:id="@+id/answerbutton3"
+            android:layout_width="0dip"
+            android:layout_weight=".5"
+            android:layout_height="wrap_content"
+            android:text="Answer 3" />
+        <Button
+            android:id="@+id/answerbutton4"
+             android:layout_width="0dip"
+            android:layout_weight=".5"
+            android:layout_height="wrap_content"
+            android:text="Answer 4" />
+ 	</LinearLayout>
+ 
+     
+     
+     <Button
+            android:id="@+id/button5"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:contentDescription="standard question button"
+            android:gravity="center|bottom"
+            android:text="Vraag 1"
+            android:textColor="#fff"
+            android:background="@drawable/portraitbuttonbackground" />  
+       
+   
+
+</LinearLayout>
+
